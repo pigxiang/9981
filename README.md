@@ -2,8 +2,7 @@
 九九归一
 
 
-####USAGE
-######Prepare
+# Prepare
     
     $ cd %SOURCEROOT%
     $ virtualenv -p /path/to/python3.6 venv
@@ -11,7 +10,8 @@
     $ pip install -r requirements.txt
     $ cd decode_server && npm install 
     
-######Run
+# Run
+
     In one terminal:
     $ node node_server.js
     In the other termianl:
